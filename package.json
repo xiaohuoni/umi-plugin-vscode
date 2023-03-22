@@ -1,0 +1,21 @@
+{
+  "name": "umi-plugin-vscode",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd demo && umi dev",
+    "build": "father build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@umijs/utils": "^4.0.57",
+    "babel-plugin-dynamic-import-node": "^2.3.3"
+  },
+  "devDependencies": {
+    "father": "^4.1.4",
+    "umi": "^4.0.51"
+  }
+}
